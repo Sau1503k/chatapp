@@ -1,16 +1,13 @@
-# chatapp
-
-A new Flutter project.
+# ChatApp
+Created a chat application with the help firebase as backend.Included feature like searching friends by there username/emailid and have one to one conversation with them.
+You could login with your personal emailid and search for your friends.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Download the project and open with the help of any editor(make sure that you have all the flutter plugins available)
+2. First go to pubspec.yaml file and download all the dependency with the help of pub get
+3. Now run the app on your connected device
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Backend
+The application uses firebase and firestore as the backend. Backend codebase is defined in Database.dart file in lib.
+Database.dart contains the neccessary functions which interact with the database.
